@@ -26,8 +26,6 @@ var PromptContainer = React.createClass({
 			username: ''
 		});
 
-		console.log(this.props);
-
 		if (this.props.routeParams.playerOne) {
 			// go to /battle
 			this.context.router.push({
